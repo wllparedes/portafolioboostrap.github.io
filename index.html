@@ -1,0 +1,438 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8"> <!-- Tildación de las palabras -->
+    <meta name="author" content="Walinn Paredes"> <!-- Nombre del creador de la pag -->
+    <meta description="Portafolio de Wallace Paredes"> <!-- descripcción de la pag -->
+    <meta name="keyswords" content="HTML, CSS, JavaScript, React"> <!-- palabras clavez -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- adaptable -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Titulo -->
+    <title> Walinn | Desarrollo Web FrontEnd</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="imgs/walinn.jpg">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- Iconos Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css"> <!-- relacion: hoja de estilos -->
+
+
+    <!-- Link de fuente Rubik dirt -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-md nabvar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-toggler">
+                <a class="navbar-brand" href="#">
+                    <img src="imgs/walinn.jpg" width="50" alt="Logo de la pagina web">
+                </a>
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mis-proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonios">Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactos">Contactos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seccion principal / hero -->
+    <section class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <img class="hero-imagen-desarrollador rounded-circle" src="imgs/desarrollador-ejemplo.svg"
+                alt="foto de walin paredes">
+            <h1>Hola, soy Walinn Paredes</h1>
+            <h2>Desarrollo sitios web y escribo articulos sobre programación.</h2>
+        </div>
+
+        <div class="hero-inferior">
+            <img class="hero-inferior-imagen img-fluid" src="imgs/hero-inferior.svg"
+                alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React">
+        </div>
+    </section>
+
+
+    <!-- Seccion about me -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+        <div class="contenedor">
+            <h2 class="seccion-titulo"> Conoce sobre Walinn Paredes</h2>
+            <p class="seccion-texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus inventore
+                impedit illum beatae, ipsum quo consectetur cupiditate alias magnam perferendis quaerat tenetur nihil
+                ex! Officia doloremque cum quod veritatis debitis?Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit. Inventore, placeat?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, eum.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, numquam?</p>
+        </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+        <div class="container text-center">
+            <div class="row">
+                <!-- Desarrollo web -->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Desarrollo Web</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eaque accusantium voluptates sit
+                        facere nesciunt magni temporibus ab eveniet deserunt.</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">HTML</span>
+                        <span class="badge text-bg-primary">CSS</span>
+                        <span class="badge text-bg-primary">JAVASCRIPT</span>
+                        <span class="badge text-bg-primary">REACT</span>
+                    </div>
+                </div>
+
+                <!-- Articulos -->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Articulos</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eaque accusantium voluptates sit
+                        facere nesciunt magni temporibus ab eveniet deserunt.</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">Escribir</span>
+                        <span class="badge text-bg-primary">Editar</span>
+                        <span class="badge text-bg-primary">Blogs</span>
+                    </div>
+                </div>
+
+                <!-- Estudiante -->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Estudiante</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id eaque accusantium voluptates sit
+                        facere nesciunt magni temporibus ab eveniet deserunt.</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">Desarrollo web</span>
+                        <span class="badge text-bg-primary">Python</span>
+                        <span class="badge text-bg-primary">FreeCodeCamp</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos recientes -->
+    <section id="mis-proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+        <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+        <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+
+        <!-- Galeria de proyectos -->
+        <div class="container text-center proyectos-contenedor">
+            <div class="row">
+                <!--? Proyecto 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="imgs/proyecto1.png" alt="Proyecto 1">
+                        <div class="overlay">
+                            <p>Proyecto 1</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/wllparedes" target="_blank" rel="noopener noreferrer"><i
+                                        class="bi bi-github"></i></a>
+                                <a href="https://open.spotify.com/" target="_blank" rel="noopener noreferrer"><i
+                                        class="bi bi-laptop"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--? Proyecto 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="imgs/proyecto2.png" alt="Proyecto 1">
+                        <div class="overlay">
+                            <p>Proyecto 2</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/wllparedes" target="_blank" rel="noopener noreferrer"><i
+                                        class="bi bi-github"></i></a>
+                                <a href="https://open.spotify.com/" target="_blank" rel="noopener noreferrer"><i
+                                        class="bi bi-laptop"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--? Proyecto 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="imgs/proyecto3.png" alt="Proyecto 1">
+                        <div class="overlay">
+                            <p>Proyecto 3</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/wllparedes" target="_blank" rel="noopener noreferrer"><i
+                                        class="bi bi-github"></i></a>
+                                <a href="https://open.spotify.com/" target="_blank" rel="noopener noreferrer"><i
+                                        class="bi bi-laptop"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--? Proyecto 4 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="imgs/proyecto4.png" alt="Proyecto 1">
+                        <div class="overlay">
+                            <p>Proyecto 4</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/wllparedes" target="_blank" rel="noopener noreferrer"><i
+                                        class="bi bi-github"></i></a>
+                                <a href="https://open.spotify.com/" target="_blank" rel="noopener noreferrer"><i
+                                        class="bi bi-laptop"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--? Proyecto 5 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="imgs/proyecto5.png" alt="Proyecto 1">
+                        <div class="overlay">
+                            <p>Proyecto 5</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/wllparedes" target="_blank" rel="noopener noreferrer"><i
+                                        class="bi bi-github"></i></a>
+                                <a href="https://open.spotify.com/" target="_blank" rel="noopener noreferrer"><i
+                                        class="bi bi-laptop"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--? Proyecto 6 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="imgs/proyecto6.png" alt="Proyecto 1">
+                        <div class="overlay">
+                            <p>Proyecto 6</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/wllparedes" target="_blank" rel="noopener noreferrer"><i
+                                        class="bi bi-github"></i></a>
+                                <a href="https://open.spotify.com/" target="_blank" rel="noopener noreferrer"><i
+                                        class="bi bi-laptop"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <a href="https://github.com/wllparedes" target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-info">
+                <i class="bi bi-arrow-right-circle-fill"></i>
+                Ver mas proyectos
+            </button>
+        </a>
+    </section>
+
+
+    <!-- Seccion articulos -->
+
+
+    <section class="articulos justify-content-start">
+        <h2 class="seccion-titulo texto-negro">Articulos</h2>
+        <div class="card"">
+            <div class=" card-header">
+            Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+            <a href="https://youtu.be/QCw0L6FupQ0" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">El decorador @property en Python - Cómo usarlo y sintaxis </li>
+            </a>
+            <a href="https://youtu.be/QCw0L6FupQ0" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">Python tutorial ciclos while - While true ejemplos de sintaxis y ciclos
+                    infinitos</li>
+            </a>
+            <a href="https://youtu.be/QCw0L6FupQ0" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">Python leer archivos JSON - cómo cargar JSON desde un archivo y procesar
+                    dumps</li>
+            </a>
+            <a href="https://youtu.be/QCw0L6FupQ0" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">Python como escribir en un archivo - abir, leer, escribir y ptras funciones
+                    de archivos explicadas</li>
+            </a>
+            <a href="https://youtu.be/QCw0L6FupQ0" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">¿Para que se usa Python? 10+ usos del lenguaje de programación</li>
+            </a>
+        </ul>
+        </div>
+
+        <a href="https://open.spotify.com/" target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-info">
+                <i class="bi bi-arrow-right-circle-fill"></i>
+                Ver mas articulos
+            </button>
+        </a>
+
+    </section>
+
+
+    <!-- Testimonios -->
+
+    <section id="testimonios" class="testimonios seccion-clara">
+        <h2 class="seccion-titulo">Testimonios</h2>
+        <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
+
+
+        <!-- Carrusel -->
+        <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                <!-- Carrusel 1ro -->
+                <div class="carousel-item active">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="imgs/cliente1.svg" alt="Foto de Gino">
+                        <p class="testimonio-texto">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi fugit error doloribus quod
+                            necessitatibus delectus, nobis officiis quis expedita.
+                        </p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Gino</p>
+                            <p class="cargo">Gerente de proyectos en DesarrolloWeb</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Carrusel 2ro -->
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="imgs/cliente2.svg" alt="Foto de Nora">
+                        <p class="testimonio-texto">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi fugit error doloribus quod
+                            necessitatibus
+                            delectus, nobis officiis quis expedita.
+                        </p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Nora</p>
+                            <p class="cargo">Gerente de DiseñaMiPáginaWeb</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carrusel 3ro -->
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="imgs/cliente3.svg" alt="Foto de Leonardo">
+                        <p class="testimonio-texto">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi fugit error doloribus quod
+                            necessitatibus
+                            delectus, nobis officiis quis expedita.
+                        </p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Leonardo</p>
+                            <p class="cargo">Director de AprendeAProgramar</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+
+
+
+    </section>
+
+
+    <!-- Contactos -->
+    <section id="contactos" class="contacto seccion-oscura">
+        <div class="container">
+            <div class="container d-flex justify-content-evenly text-center rectangulo">
+                <div class="row">
+                    <div class="col-12 col-md-4 seccion-titulo">
+                        ¡Hablemos!
+                    </div>
+                    <div class="col-12 col-md-4 descripcion">
+                        Contáctame para iniciar tu proyecto de desarrollo web y haré que tu vision se vuelva realidad
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <a href="mailto:walinparedes3010@gmail.com">
+                            <button type="button">
+                                <i class="bi bi-envelope-check-fill"></i>
+                                Contacto
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer (pie de pagina) -->
+
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+        <img src="imgs/icono-blanco.svg" alt="Logo del portafolio" class="footer-icono">
+        <p class="footer-texto text-center">Aprendo y creo todos los dias.<br>Creemos un proyecto juntos</p>
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://twitter.com/_wllparedes" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-twitter"></i>
+            </a>
+            <a href="https://github.com/wllparedes" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://twitter.com/_wllparedes" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://twitter.com/_wllparedes" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="mailto:walinparedes3010@gmail.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-envelope"></i>
+            </a>
+        </div>
+
+        <div class="derechos-de-autor">Creado por Wallyn Paredes (2022) &#169;</div>
+
+
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
